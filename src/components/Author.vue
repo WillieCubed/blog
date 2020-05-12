@@ -8,11 +8,12 @@
 		</h1>
 
 		<p class="author__intro">
-      A guy on the internet but also in real life as a student at The University of Texas at Dallas.
+      A guy on the internet who just can't stop learning.
 		</p>
 
 		<p class="author__links">
-			<a href="//twitter.com/@WillieCubed">Follow on Twitter</a>
+			<g-link to="/about">About</g-link>
+			<a href="//twitter.com/@WillieCubed">Twitter</a>
 			<a href="//github.com/WillieCubed/">GitHub</a>
 		</p>
 
