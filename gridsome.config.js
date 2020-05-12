@@ -36,36 +36,36 @@ module.exports = {
         }
       }
     },
-    {
-      use: '@gridsome/plugin-sitemap',
-      options: {
-        cacheTime: 600000, // default
-        exclude: ['/exclude-me'],
-        config: {
-          '/posts/*': {
-            changefreq: 'daily',
-            priority: 0.5
-          },
-          '/about': {
-            changefreq: 'monthly',
-            priority: 0.7
-          }
-        },
-        staticUrls: [
-          {
-            url: '/images/',
-            img: [
-              {
-                url: '/images/author.png',
-                caption: 'My profile picture for basically everything.',
-                title: 'The Face of WillieCubed',
-                license: 'https://creativecommons.org/licenses/by/4.0/'
-              },
-            ],
-          },
-        ],
-      },
-    },
+    // {
+    //   use: '@gridsome/plugin-sitemap',
+    //   options: {
+    //     cacheTime: 600000, // default
+    //     exclude: ['/exclude-me'],
+    //     config: {
+    //       '/posts/*': {
+    //         changefreq: 'daily',
+    //         priority: 0.5,
+    //       },
+    //       '/about': {
+    //         changefreq: 'monthly',
+    //         priority: 0.1,
+    //       },
+    //     },
+    //     staticUrls: [
+    //       {
+    //         url: '/images/',
+    //         img: [
+    //           {
+    //             url: '/images/author.png',
+    //             caption: 'My profile picture for basically everything.',
+    //             title: 'The Face of WillieCubed',
+    //             license: 'https://creativecommons.org/licenses/by/4.0/',
+    //           },
+    //         ],
+    //       },
+    //     ],
+    //   },
+    // },
     {
       use: '@gridsome/plugin-google-analytics',
       options: {
