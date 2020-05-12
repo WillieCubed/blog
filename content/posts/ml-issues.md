@@ -3,8 +3,9 @@ title: Clark, We Have a Problem
 date: 2019-07-22
 tags: ['Machine Learning', 'Updates', 'AutoVlog', 'Research', 'Kaggle']
 canonical_url: false
-description: 'Well, I'm having trouble scaling down my original goal for AutoVlog, an
-end-to-end solution for automatic video editing.'
+description: >
+  Well, I'm having trouble scaling down my original goal for AutoVlog, an
+  end-to-end solution for automatic video editing.
 ---
 
 # Clark, We Have a Problem

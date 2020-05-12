@@ -3,7 +3,11 @@ title: Hello World, Etc., Etc.
 date: 2019-07-22
 tags: ['Hello World', 'Updates', 'Future']
 canonical_url: false
-description: "I'm starting a blog about my developer things. The WillieCubed blog is where I'll post updates on my journey towards becoming a sort of acceptable software developer/researcher/whatever the heck I decide to be. Give me a break, I'm not even technically in college yet."
+description: >
+  I'm starting a blog about my developer things. The WillieCubed blog is where
+  I'll post updates on my journey towards becoming a sort of acceptable software
+  developer/researcher/whatever the heck I decide to be. Give me a break, I'm
+  not even technically in college yet.
 ---
 
 # Hello World, Etc., Etc.
