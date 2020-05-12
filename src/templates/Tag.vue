@@ -42,7 +42,8 @@ export default {
     PostCard
   },
   metaInfo: {
-    title: this.$page.tag.description,
+    // title: this.$page.tag.description,
+    title: 'Just a tag',
   },
 };
 </script>
