@@ -4,6 +4,18 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+const path = require('path');
+
+function addStyleResource(rule) {
+  rule.use('style-resource')
+    .loader('style-resources-loader')
+    .options({
+      patterns: [
+        path.resolve(__dirname, './src/assets/sass/*.scss'),
+      ],
+    });
+}
+
 module.exports = {
   siteName: 'WillieCubed Blog',
   siteDescription: 'Some assorted ramblings from a student who is in love with ML and AI',
@@ -69,8 +81,17 @@ module.exports = {
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
       anchorClassName: 'icon icon-link',
       plugins: [
-        '@gridsome/remark-prismjs'
-      ]
-    }
+        '@gridsome/remark-prismjs',
+      ],
+    },
+  },
+  chainWebpack(config) {
+    // Load SCSS into styles
+    // Load variables for all vue-files
+    const types = ['vue-modules', 'vue', 'normal-modules', 'normal'];
+    // or if you use scss
+    types.forEach(type => {
+      addStyleResource(config.module.rule('scss').oneOf(type));
+    });
   },
 };
