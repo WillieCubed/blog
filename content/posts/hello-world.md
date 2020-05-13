@@ -1,7 +1,7 @@
 ---
 title: Hello World, Etc., Etc.
 date: 2019-07-22
-tags: ['Hello World', 'Updates', 'Future']
+tags: ['Hello World', 'update', 'future']
 canonical_url: false
 description: >
   I'm starting a blog about my developer things. The WillieCubed blog is where
@@ -10,7 +10,6 @@ description: >
   not even technically in college yet.
 ---
 
-# Hello World, Etc., Etc.
 **July 22, 2019, 7:49 AM CDT**
 
 Yeah, it's about time I actually started one of these.

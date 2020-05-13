@@ -1,14 +1,13 @@
 ---
 title: Clark, We Have a Problem
 date: 2019-07-22
-tags: ['Machine Learning', 'Updates', 'AutoVlog', 'Research', 'Kaggle']
+tags: ['machine-learning', 'project-update', 'autovlog', 'research', 'kaggle']
 canonical_url: false
 description: >
   Well, I'm having trouble scaling down my original goal for AutoVlog, an
   end-to-end solution for automatic video editing.
 ---
 
-# Clark, We Have a Problem
 **July 22, 2019, 2:39 PM CDT**
 
 What am I doing today? Well, I'm currently waiting for a convolutional neural
