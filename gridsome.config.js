@@ -17,16 +17,17 @@ function addStyleResource(rule) {
 }
 
 module.exports = {
-  siteName: 'WillieCubed Blog',
-  siteDescription: 'Some assorted ramblings from a student who is in love with ML and AI',
-  siteUrl: 'http://blog.williecubed.me',
+  siteName: 'Escalating Curiosity',
+  siteDescription: `The musings of an undergrad doing research and a half dozen other things.
+                    Enjoy the curiosity, introspection, and not-so-witty banter.`,
+  siteUrl: 'https://blog.williecubed.me',
   plugins: [
     {
       // Create posts from markdown files
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Post',
-        path: 'content/posts/*.md',
+        path: 'content/posts/**/*.md',
         refs: {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {

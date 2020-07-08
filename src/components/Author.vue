@@ -4,11 +4,15 @@
 		<g-image alt="Author image" class="author__image" src="~/assets/images/author.png" width="180" height="180" blur="5" />
 
 		<h1 v-if="showTitle" class="author__site-title">
-			{{ $static.metaData.siteName }}
+			<div>
+				{{ $static.metaData.siteName }}
+			</div>
+			<div class="author__site-byline">A blog by Willie Chalmers III</div>
 		</h1>
 
 		<p class="author__intro">
-      A guy on the internet who just can't stop learning.
+			The musings of an undergrad doing research and a half dozen other things.
+			Enjoy the curiosity, introspection, and not-so-witty banter.
 		</p>
 
 		<p class="author__links">
@@ -51,6 +55,11 @@ export default {
 	}
 	&__site-title {
 		font-size: 1.5em;
+	}
+	&__site-byline {
+		margin-top: 16px;
+		font-size: 0.67em;
+		font-style: normal;
 	}
 	&__links {
 		margin-top: -.5em;
