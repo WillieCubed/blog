@@ -6,6 +6,7 @@ canonical_url: false
 description: >
   Well, I'm having trouble scaling down my original goal for AutoVlog, an
   end-to-end solution for automatic video editing.
+public: true
 ---
 
 **July 22, 2019, 2:39 PM CDT**

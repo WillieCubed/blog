@@ -8,6 +8,7 @@ description: >
   I'll post updates on my journey towards becoming a sort of acceptable software
   developer/researcher/whatever the heck I decide to be. Give me a break, I'm
   not even technically in college yet.
+public: true
 ---
 
 **July 22, 2019, 7:49 AM CDT**

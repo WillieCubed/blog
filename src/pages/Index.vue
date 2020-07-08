@@ -12,8 +12,8 @@
 </template>
 
 <page-query>
-{
-  posts: allPost {
+query {
+  posts: allPost(filter: { public: { eq: true }}) {
     edges {
       node {
         id

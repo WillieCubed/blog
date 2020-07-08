@@ -6,6 +6,7 @@ canonical_url: false
 description: >
   I'm going to start a blog and talk about what I'm building. I'll make sure this lasts a while...
   I promise. Again. No seriously, fifth time's the charm.
+public: true
 ---
 
 Last time I tried to maintain a blog, I thought I was going to produce
