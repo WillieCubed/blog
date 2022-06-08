@@ -5,7 +5,8 @@ tags: [lab-log]
 canonical_url: false
 public: true
 description: >
-  Today, I downloaded some datasets.
+  I'm going to start documenting what I do in lab so I can applaud myself every
+  few weeks or so.
 ---
 
 # Lab Logs Overview
